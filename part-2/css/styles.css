@@ -26,4 +26,32 @@ figure {
 .film {
   width: 50%;
   margin: 40px auto;
+  border: 1px solid #ddd;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 33.33% 66.66%;
+}
+
+.film-poster, .film-details {
+  position: relative;
+}
+
+.film-details {
+  padding: 0 1em;
+}
+
+.action-watch-later, .action-like {
+  color: #f00;
+}
+
+.action-watch-later {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.action-like {
+  position: absolute;
+  bottom: 0;
+  right: 8px;
 }
